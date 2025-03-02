@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.post {
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-header .fa-html5 {
+    font-size: 24px;
+    color: #e44d26; /* Color naranja de HTML5 */
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 12px;
+    color: #777;
+}
+
+.post-header .fa-ellipsis-h {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+.post-actions {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+.post-actions .fa-bookmark {
+    margin-left: auto;
+}
+
+.post-actions i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.post-actions i:hover {
+    color: #888;
+}
+
+.post-likes {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.post-description {
+    padding: 10px;
+    font-size: 13px;
+    color: #333;
+}
